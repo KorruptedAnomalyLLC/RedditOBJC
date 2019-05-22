@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C19C0292295B5DE00FCE9E4 /* AJWRedditPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C19C0282295B5DE00FCE9E4 /* AJWRedditPost.m */; };
 		0C9BE5312295B0E200A607D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9BE5302295B0E200A607D6 /* AppDelegate.m */; };
 		0C9BE5372295B0E200A607D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9BE5352295B0E200A607D6 /* Main.storyboard */; };
 		0C9BE5392295B0E300A607D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9BE5382295B0E300A607D6 /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C19C0272295B5DE00FCE9E4 /* AJWRedditPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWRedditPost.h; sourceTree = "<group>"; };
+		0C19C0282295B5DE00FCE9E4 /* AJWRedditPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWRedditPost.m; sourceTree = "<group>"; };
 		0C9BE52C2295B0E200A607D6 /* RedditOBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditOBJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C9BE52F2295B0E200A607D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C9BE5302295B0E200A607D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C19C02A2295B5ED00FCE9E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C19C0272295B5DE00FCE9E4 /* AJWRedditPost.h */,
+				0C19C0282295B5DE00FCE9E4 /* AJWRedditPost.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0C9BE5232295B0E200A607D6 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +69,7 @@
 			children = (
 				0C9BE5452295B0F000A607D6 /* Resources */,
 				0C9BE5462295B10100A607D6 /* Storyboards */,
+				0C19C02A2295B5ED00FCE9E4 /* Model */,
 			);
 			path = RedditOBJC;
 			sourceTree = "<group>";
@@ -108,6 +121,7 @@
 		0C9BE5242295B0E200A607D6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AJW;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Austin West";
 				TargetAttributes = {
@@ -154,6 +168,7 @@
 			files = (
 				0C9BE53F2295B0E300A607D6 /* main.m in Sources */,
 				0C9BE5312295B0E200A607D6 /* AppDelegate.m in Sources */,
+				0C19C0292295B5DE00FCE9E4 /* AJWRedditPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
